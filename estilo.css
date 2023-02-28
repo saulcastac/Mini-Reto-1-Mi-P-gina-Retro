@@ -1,0 +1,121 @@
+/* estilo.css */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+@font-face{
+  font-family: "FuenteTitulo";
+  src: url(/Who\ are\ you.ttf);
+}
+
+@font-face{
+  font-family: "FuenteBotones";
+  src: url(/VarygraphieVF_PERSONAL_USE_ONLY.ttf);
+}
+
+@font-face{
+  font-family: "FuenteTexto";
+  src: url(/Semper\ Invicta.ttf);
+}
+
+.stars {
+  background-color: black;
+  background-image: url('background.gif');
+  background-repeat: repeat;
+  background-size: 960px 1080px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button {
+  background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: lime;
+	cursor: pointer;
+	display: inline-block;
+  font-family: "FuenteBotones";
+	font-size: 2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+	
+	&:focus,
+	&:hover {
+		background: #BCBCBC;
+	}
+}
+
+buttonMembers{
+  background:  #881400;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+  font-family: "FuenteBotones";
+	font-size: 2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+	
+	&:focus,
+	&:hover {
+		background: #A81000;
+	}
+}
+
+
+h {
+  margin-top: 2cm; /* ajusta el valor de acuerdo a tu preferencia */
+  font-size: 100px;
+}
+
+p {
+  font-family: "FuenteTexto";
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+#fuente-titulo{
+  font-family: "FuenteTitulo";
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
